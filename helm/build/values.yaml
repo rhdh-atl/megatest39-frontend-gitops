@@ -1,0 +1,15 @@
+app:
+  name: megatest39-poi-map-app
+  namespace: megatest39
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/megatest39-frontend
+  org: rhdh-atl
+  name: megatest39-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: megatest39/poi-map-app
+  tag: latest
